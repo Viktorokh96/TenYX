@@ -1,0 +1,31 @@
+{
+  "name": "tenyx",
+  "version": "0.1.0",
+  "description": "fust for fun",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "serve": "npm run watch & live-server dist"
+  },
+  "author": "Viktor Okhotnikov <viktorokh96@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "messagepack": "^1.1.10",
+    "paper": "^0.12.7",
+    "victor": "^1.1.0",
+    "ws-promise": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-json-loader": "^1.0.0",
+    "ws": "^7.3.0"
+  }
+}
